@@ -40,3 +40,12 @@ eXor False x = x
 -- Char: Este é o tipo de caractere. Um valor `Char` representa um único caractere.
 
 -- String: Este é o tipo de string. Uma `String` é uma lista de `Char`s. 
+
+-- Guardas
+
+maxi :: Integer -> Integer -> Integer
+maxi m n
+    -- Se a expressão for verdadeira ele faz essa guarda
+    | m >= n = m
+    -- Se não ele faz essa guarda
+    | otherwise = n 
