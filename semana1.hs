@@ -49,3 +49,10 @@ maxi m n
     | m >= n = m
     -- Se não ele faz essa guarda
     | otherwise = n 
+
+-- If Then Else
+
+-- O else é obrigatório
+
+maxi' :: Integer -> Integer -> Integer
+maxi' x y = if x >= y then x else y
